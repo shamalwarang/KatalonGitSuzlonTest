@@ -17,10 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //open browser
-WebUI.openBrowser("https://oasis-webapp-dev.azurewebsites.net/Account/Login?ReturnUrl=%2F");
+WebUI.openBrowser('https://oasis-webapp-dev.azurewebsites.net/Account/Login?ReturnUrl=%2F')
 
-WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_UserName'), 'testuser');
-WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_Password'), 'Test@123');
-WebUI.click(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_btn btn-default'));
+WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_UserName'), 'testuser1')
+
+WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_Password'), 'Test@123')
+
+WebUI.click(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_btn btn-default'))
+
