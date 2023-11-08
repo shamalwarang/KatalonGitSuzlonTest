@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 //open browser
 WebUI.openBrowser('https://oasis-webapp-dev.azurewebsites.net/Account/Login?ReturnUrl=%2F')
 
+
 WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_UserName'), 'testuser')
+
 
 WebUI.setText(findTestObject('Object Repository/LoginManualOR/Page_Login - Suzlon/input_Remember me_Password'), 'Test@123')
 
