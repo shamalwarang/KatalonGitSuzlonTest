@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginExcelDataSuit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6e8b1028-9b90-4f7b-84fc-44320e287b57</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ce83a18-037d-4a34-928e-eaa8ba8d9f1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginValidationsManual</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>14694f61-20b3-4ad1-ba84-03334bc236dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/LoginExcelTestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>14694f61-20b3-4ad1-ba84-03334bc236dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>1819eb88-e65d-46e0-b221-00a99b097129</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>14694f61-20b3-4ad1-ba84-03334bc236dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>0e066499-98d7-4c63-98b0-b432bfcf6a78</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
